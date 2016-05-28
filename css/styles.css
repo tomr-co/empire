@@ -49,7 +49,7 @@ nav img {
 
 
 #nav-buttons li {
-	display: inline-block;
+	display: inline;
 	margin: 0 10%;
 }
 
@@ -60,11 +60,22 @@ nav img {
 }
 
 #nav-buttons li:nth-child(3) {
-	margin-left: 54.7%;
+	margin-left: 52.5%;
 	margin-right: 0;
 }
 
 #nav-buttons li img {
 	height: 30px;
+}
+
+
+
+/* Image Slider */
+
+
+.my-slider {
+	width: 100%;
+	height: 1034px;
+	background-color: red;
 }
 
