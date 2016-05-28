@@ -30,6 +30,7 @@ nav img {
 #main-nav {
 	width: 100%;
 	margin: 0, auto;
+	padding-bottom: 50px;
 }
 
 #logo {
@@ -74,8 +75,7 @@ nav img {
 
 
 .my-slider {
-	width: 100%;
-	height: 1034px;
-	background-color: red;
+	width: 100%; 
 }
+
 
