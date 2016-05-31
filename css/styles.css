@@ -18,6 +18,7 @@ nav p {
 	text-align: center; 
 	margin: 0;
 	line-height: -60px;
+	font-size: 1.5rem;
 }
 
 nav img {
@@ -33,41 +34,39 @@ nav img {
 	padding-bottom: 50px;
 }
 
-#logo {
-	width: 27%;
-	margin: 36px auto;
-}
+	#logo {
+		width: 28%;
+		margin: 36px auto;
+	}
 
-#nav-buttons {
-	width: 80%;
-	margin: 0 auto;
-	height: 20%;
-}
+	#nav-buttons ul{
+		width: 80%;
+		margin: 0 auto;
 
-#nav-buttons ul{
-	padding: 0;
-}
+	}
 
+	#nav-buttons li {
+		display: inline;
+	}
 
-#nav-buttons li {
-	display: inline;
-	margin: 0 10%;
-}
+	#nav-buttons li:nth-child(1) {
+		margin-left: 0;
+		margin-right: 36.1%;
+	}
 
-#nav-buttons li:nth-child(1) {
-	margin-left: 0;
-	width: 50px;
-	height: 50px;
-}
+	#nav-buttons li:nth-child(2) {
+		margin-left: 0;
+		margin-right: 0;
+	}
 
-#nav-buttons li:nth-child(3) {
-	margin-left: 52.5%;
-	margin-right: 0;
-}
-
-#nav-buttons li img {
-	height: 30px;
-}
+	#nav-buttons li:nth-child(3) {
+		margin-left: 35%;
+		margin-right: 0;
+	}
+	
+	#nav-buttons li img {
+		height: 30px;
+	}
 
 
 
@@ -78,4 +77,25 @@ nav img {
 	width: 100%; 
 }
 
+/* SHOP NOW LINKS BELOW IMAGE SLIDER */
+
+#below-slider {
+	width: 100%;
+	height: 400px;
+}
+
+#shop-now-1 {
+	width: 50%;
+	float: left;
+}
+
+	#shop-now-1 img,
+	#shop-now-2 img {
+		width: 100%;
+	}
+
+#shop-now-2 {
+	width: 50%;
+	float: right;
+}
 
