@@ -39,36 +39,38 @@ nav img {
 		margin: 36px auto;
 	}
 
-	#nav-buttons ul{
+	#nav-buttons {
 		width: 80%;
 		margin: 0 auto;
-
 	}
 
-	#nav-buttons li {
-		display: inline;
+
+	#cart-full ,
+	#mobile-menu ,
+	#mobile-search {
+		height: 35px;
 	}
 
-	#nav-buttons li:nth-child(1) {
-		margin-left: 0;
-		margin-right: 36.1%;
+	#cart-full img,
+	#mobile-menu img,
+	#mobile-search img{
+		height: 35px;
 	}
 
-	#nav-buttons li:nth-child(2) {
-		margin-left: 0;
-		margin-right: 0;
-	}
-
-	#nav-buttons li:nth-child(3) {
-		margin-left: 35%;
-		margin-right: 0;
+	
+	#mobile-menu,
+	#mobile-search {
+		float: left;
 	}
 	
-	#nav-buttons li img {
-		height: 30px;
+	#cart-full {
+		float: right;
 	}
-
-
+		
+	
+	#mobile-search {
+		margin-left: 45%;
+	}
 
 /* Image Slider */
 
@@ -99,3 +101,13 @@ nav img {
 	float: right;
 }
 
+
+/* Ipad / Table devices */
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+
+	#logo {
+		width: 100px;
+	}
+
+}
